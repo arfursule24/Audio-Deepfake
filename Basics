@@ -1,0 +1,43 @@
+### </i> Mar 21 - Mar 28
+Learnings for the week - 
+Different Data Augmentations Learned : 
+#### 1. Pitch shifting -
+Pitch is a fundamental characteristic of sound that corresponds to the frequency at which air vibrates. Without affecting its time. The human ear can hear frequencies between 20 Hz and 20,000 Hz. Frequencies between - 
+20 Hz and 200 Hz are called bass
+200 Hz to 2000 Hz are called midrange
+2000 Hz to 20,000 Hz are called treble
+![Image](https://github.com/user-attachments/assets/43d91143-d978-498e-b017-044b66a9a31d)
+Formants -
+Formants are frequency zones that always contain more energy than the others. They are are related to the physiognomy of a person or an instrument and do not vary with pitch.The lighter areas materialize the formants and the different lines materialize the harmonics of the sound. The formants act as filters inside which the harmonics are amplified. 
+![Image](https://github.com/user-attachments/assets/1ff005c2-02c3-4029-b336-531355e92689)
+Pitch shifting consists in modifying the pitch of a sound. The easiest way to achieve this is to speed up or slow down a sound, this is called resampling. When we speed up a sound, we increase its frequency and reduce its duration: the sound becomes higher pitched. Conversely, if we slow down a sound, we lower its frequency and increase its duration: the sound becomes lower pitched. 
+#### 2. Time stretching - 
+Time stretching is an operation that allows you to change the length of a recording without affecting its pitch. For speech, stretch factors within a ±30% range provide good results.
+
+
+#### 3. Low pass filter 
+
+#### 4. High Pass Filter
+
+#### 5. Room Impulse Response
+
+#### 6. MUSAN
+
+#### 7. Freqmask
+
+#### References
+</b> Xie, Yuankun, et al. "Temporal Variability and Multi-Viewed Self-Supervised Representations to Tackle the ASVspoof5 Deepfake Challenge." arXiv preprint arXiv:2408.06922 (2024).
+Pitch shifting - https://www.nicolastiteux.com/en/blog/everything-you-need-to-know-about-pitch-shifting/
+Time strechinh  - [steinberg.help logo](https://archive.steinberg.help/wavelab_elements/v11/en/wavelab/topics/offline_processing/time_stretching_limitations_c.html)
+
+### April 1 - April 8 :
+
+#### ASVSpoof5 track description -
+
+Track 1 (CM System):
+Use the Baseline-AASIST folder to train and evaluate your CM model.
+
+Track 2 (SASV System):
+Run one of the SASV baselines (fusion-based or integrated SASV2) to generate SASV scores, then use the evaluation-package (or the tool-score-fusion tool) to compute the tandem metrics.
+
+This workflow allows you to run both experiments. You may need to run the CM (Track 1) and ASV (Track 2) experiments separately, then fuse their outputs (if required for Track 2). 
